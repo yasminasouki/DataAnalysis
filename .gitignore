@@ -1,0 +1,31 @@
+# Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data (too large for GitHub; lives in Google Drive)
+data/raw/
+*.dcm
+*.zip
+*.npz
+*.npy
+
+# Trained models
+*.h5
+*.keras
+*.pt
+*.pth
+models/
+
+# Secrets (NEVER commit)
+kaggle.json
+
+# Jupyter / editor
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Word temp files
+~$*.docx
